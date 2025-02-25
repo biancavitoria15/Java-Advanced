@@ -1,4 +1,4 @@
-package br.com.fiap.api_rest_aula01.enums;
+import br.com.fiap.api_rest_aula01.model;
 
 public enum Categoria {
     BRONZE("Bronze"),

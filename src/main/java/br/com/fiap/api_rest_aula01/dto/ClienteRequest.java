@@ -1,6 +1,6 @@
 package br.com.fiap.api_rest_aula01.dto;
 
-
+import br.com.fiap.api_rest_aula01.model.Categoria;
 import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
