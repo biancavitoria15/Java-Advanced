@@ -12,15 +12,7 @@ import java.util.stream.Collectors;
 @Service
 public class ClienteService {
     public Cliente requestToCliente(ClienteRequest clienteRequest) {
-        Cliente cliente = new Cliente(null,
-                clienteRequest.getNome(),
-                clienteRequest.getIdade(),
-                clienteRequest.getEmail(),
-                clienteRequest.getSenha(),
-                clienteRequest.getCpf(),
-                clienteRequest.getCategoria());
-
-        return cliente;
+        return new Cliente(null, clienteRequest.getNome(), clienteRequest.getIdade());
     }
 
     public ClienteResponse clienteToResponse(Cliente cliente) {
